@@ -1,0 +1,33 @@
+[2023-02-23 10:11:11,611] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-23 10:11:11,621] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-23 10:11:11,621] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 10:11:11,622] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-23 10:11:11,622] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 10:11:11,637] {taskinstance.py:1377} INFO - Executing <Task(TwitterOperator): twitter_datascience> on 2023-02-17 00:00:00+00:00
+[2023-02-23 10:11:11,640] {standard_task_runner.py:52} INFO - Started process 21303 to run task
+[2023-02-23 10:11:11,645] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'TwitterDAG', 'twitter_datascience', 'scheduled__2023-02-17T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/twitter_dag.py', '--cfg-path', '/var/folders/8z/6d7zf4153pgfqk4ygy8by4rh0000gn/T/tmpjzeehvzx', '--error-file', '/var/folders/8z/6d7zf4153pgfqk4ygy8by4rh0000gn/T/tmp10ucr9h8']
+[2023-02-23 10:11:11,647] {standard_task_runner.py:80} INFO - Job 3: Subtask twitter_datascience
+[2023-02-23 10:11:16,678] {task_command.py:370} INFO - Running <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-02-17T00:00:00+00:00 [running]> on host AZ026.local
+[2023-02-23 10:11:21,744] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=TwitterDAG
+AIRFLOW_CTX_TASK_ID=twitter_datascience
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-17T00:00:00+00:00
+[2023-02-23 10:11:21,748] {base.py:68} INFO - Using connection ID 'twitter_default' for task execution.
+[2023-02-23 10:11:21,751] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z
+[2023-02-23 10:11:22,347] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njetxjbi8z67yy4ks2kuhddvh
+[2023-02-23 10:11:22,641] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njetw0p3elryyf10h9vk0lc3h
+[2023-02-23 10:11:22,927] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njetvzms0wyj7tyjy0r3zhojh
+[2023-02-23 10:11:23,246] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njejh8a7di9tabn2scv9gagl9
+[2023-02-23 10:11:23,558] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njejfqat1ft8umgbt9sjpzkvx
+[2023-02-23 10:11:23,857] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njejfpgaipo2111rl1sbxg0al
+[2023-02-23 10:11:24,178] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njeje7gqqzuvzko75vap9o2nx
+[2023-02-23 10:11:24,522] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njejcomogpclvdgbfwtxmbtrx
+[2023-02-23 10:11:24,804] {twitter_hook.py:34} INFO - URL: https://api.twitter.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-02-17T00:00:00.00Z&end_time=2023-02-18T00:00:00.00Z&next_token=b26v89c19zqg8o3fqk71njejb6fkj8pn2i9ueg6oovekd
+[2023-02-23 10:11:25,089] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=TwitterDAG, task_id=twitter_datascience, execution_date=20230217T000000, start_date=20230223T131111, end_date=20230223T131125
+[2023-02-23 10:11:25,146] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-23 10:11:25,162] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

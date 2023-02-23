@@ -1,0 +1,102 @@
+[2023-02-23 10:05:59,219] {processor.py:153} INFO - Started process (PID=20323) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:05:59,219] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:05:59,219] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,219] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:05:59,246] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:05:59,528] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,528] {manager.py:508} INFO - Created Permission View: can read on DAG:TwitterDAG
+[2023-02-23 10:05:59,531] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,531] {manager.py:508} INFO - Created Permission View: can edit on DAG:TwitterDAG
+[2023-02-23 10:05:59,533] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,533] {manager.py:508} INFO - Created Permission View: can delete on DAG:TwitterDAG
+[2023-02-23 10:05:59,533] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:05:59,535] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,535] {dag.py:2398} INFO - Creating ORM DAG for TwitterDAG
+[2023-02-23 10:05:59,539] {logging_mixin.py:115} INFO - [2023-02-23 10:05:59,539] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:05:59,543] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.325 seconds
+[2023-02-23 10:06:30,334] {processor.py:153} INFO - Started process (PID=20476) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:06:30,334] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:06:30,334] {logging_mixin.py:115} INFO - [2023-02-23 10:06:30,334] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:06:30,367] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:06:30,392] {logging_mixin.py:115} INFO - [2023-02-23 10:06:30,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:06:30,397] {logging_mixin.py:115} INFO - [2023-02-23 10:06:30,397] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:06:30,402] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.068 seconds
+[2023-02-23 10:07:01,587] {processor.py:153} INFO - Started process (PID=20610) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:01,588] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:07:01,588] {logging_mixin.py:115} INFO - [2023-02-23 10:07:01,588] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:01,621] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:01,649] {logging_mixin.py:115} INFO - [2023-02-23 10:07:01,649] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:07:01,656] {logging_mixin.py:115} INFO - [2023-02-23 10:07:01,656] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:07:01,660] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.073 seconds
+[2023-02-23 10:07:32,899] {processor.py:153} INFO - Started process (PID=20692) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:32,899] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:07:32,899] {logging_mixin.py:115} INFO - [2023-02-23 10:07:32,899] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:32,931] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:07:32,957] {logging_mixin.py:115} INFO - [2023-02-23 10:07:32,957] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:07:32,963] {logging_mixin.py:115} INFO - [2023-02-23 10:07:32,963] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:07:32,967] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.068 seconds
+[2023-02-23 10:08:04,187] {processor.py:153} INFO - Started process (PID=20744) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:04,187] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:08:04,187] {logging_mixin.py:115} INFO - [2023-02-23 10:08:04,187] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:04,218] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:04,242] {logging_mixin.py:115} INFO - [2023-02-23 10:08:04,242] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:08:04,248] {logging_mixin.py:115} INFO - [2023-02-23 10:08:04,248] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:08:04,252] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.065 seconds
+[2023-02-23 10:08:35,375] {processor.py:153} INFO - Started process (PID=20790) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:35,375] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:08:35,375] {logging_mixin.py:115} INFO - [2023-02-23 10:08:35,375] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:35,419] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:08:35,446] {logging_mixin.py:115} INFO - [2023-02-23 10:08:35,446] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:08:35,453] {logging_mixin.py:115} INFO - [2023-02-23 10:08:35,453] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:08:35,458] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.084 seconds
+[2023-02-23 10:09:06,219] {processor.py:153} INFO - Started process (PID=20944) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:06,219] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:09:06,219] {logging_mixin.py:115} INFO - [2023-02-23 10:09:06,219] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:06,252] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:06,276] {logging_mixin.py:115} INFO - [2023-02-23 10:09:06,276] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:09:06,283] {logging_mixin.py:115} INFO - [2023-02-23 10:09:06,283] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:09:06,287] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.068 seconds
+[2023-02-23 10:09:37,011] {processor.py:153} INFO - Started process (PID=21019) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:37,011] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:09:37,012] {logging_mixin.py:115} INFO - [2023-02-23 10:09:37,012] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:37,045] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:09:37,070] {logging_mixin.py:115} INFO - [2023-02-23 10:09:37,070] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:09:37,077] {logging_mixin.py:115} INFO - [2023-02-23 10:09:37,077] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:09:37,081] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.070 seconds
+[2023-02-23 10:10:07,837] {processor.py:153} INFO - Started process (PID=21134) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:07,837] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:10:07,837] {logging_mixin.py:115} INFO - [2023-02-23 10:10:07,837] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:07,874] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:07,899] {logging_mixin.py:115} INFO - [2023-02-23 10:10:07,899] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:10:07,905] {logging_mixin.py:115} INFO - [2023-02-23 10:10:07,905] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:10:07,909] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.072 seconds
+[2023-02-23 10:10:38,632] {processor.py:153} INFO - Started process (PID=21238) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:38,632] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:10:38,633] {logging_mixin.py:115} INFO - [2023-02-23 10:10:38,633] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:38,668] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:10:38,694] {logging_mixin.py:115} INFO - [2023-02-23 10:10:38,694] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:10:38,700] {logging_mixin.py:115} INFO - [2023-02-23 10:10:38,700] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-23 10:10:38,704] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.072 seconds
+[2023-02-23 10:11:25,665] {processor.py:153} INFO - Started process (PID=21335) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:25,665] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:11:25,665] {logging_mixin.py:115} INFO - [2023-02-23 10:11:25,665] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:25,699] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:25,724] {logging_mixin.py:115} INFO - [2023-02-23 10:11:25,724] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:11:25,730] {logging_mixin.py:115} INFO - [2023-02-23 10:11:25,730] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-23 10:11:25,734] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.069 seconds
+[2023-02-23 10:11:57,046] {processor.py:153} INFO - Started process (PID=21425) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:57,047] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:11:57,047] {logging_mixin.py:115} INFO - [2023-02-23 10:11:57,047] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:57,084] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:11:57,109] {logging_mixin.py:115} INFO - [2023-02-23 10:11:57,109] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:11:57,114] {logging_mixin.py:115} INFO - [2023-02-23 10:11:57,114] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-19T00:00:00+00:00, run_after=2023-02-20T00:00:00+00:00
+[2023-02-23 10:11:57,122] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.076 seconds
+[2023-02-23 10:12:28,318] {processor.py:153} INFO - Started process (PID=21555) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:28,318] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:12:28,318] {logging_mixin.py:115} INFO - [2023-02-23 10:12:28,318] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:28,352] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:28,378] {logging_mixin.py:115} INFO - [2023-02-23 10:12:28,378] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:12:28,384] {logging_mixin.py:115} INFO - [2023-02-23 10:12:28,384] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-19T00:00:00+00:00, run_after=2023-02-20T00:00:00+00:00
+[2023-02-23 10:12:28,388] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.071 seconds
+[2023-02-23 10:12:59,570] {processor.py:153} INFO - Started process (PID=21719) to work on /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:59,570] {processor.py:641} INFO - Processing file /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2023-02-23 10:12:59,571] {logging_mixin.py:115} INFO - [2023-02-23 10:12:59,571] {dagbag.py:507} INFO - Filling up the DagBag from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:59,608] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py
+[2023-02-23 10:12:59,634] {logging_mixin.py:115} INFO - [2023-02-23 10:12:59,634] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 10:12:59,641] {logging_mixin.py:115} INFO - [2023-02-23 10:12:59,641] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2023-02-19T00:00:00+00:00, run_after=2023-02-20T00:00:00+00:00
+[2023-02-23 10:12:59,645] {processor.py:161} INFO - Processing /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py took 0.075 seconds

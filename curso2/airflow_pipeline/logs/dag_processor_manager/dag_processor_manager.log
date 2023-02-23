@@ -1,0 +1,120 @@
+[2023-02-23 10:05:58,914] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2023-02-23 10:05:58,914] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-02-23 10:05:58,914] {manager.py:482} INFO - Checking for new files in /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags every 300 seconds
+[2023-02-23 10:05:58,914] {manager.py:690} INFO - Searching for files in /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags
+[2023-02-23 10:05:58,914] {manager.py:693} INFO - There are 1 files in /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags
+[2023-02-23 10:05:59,684] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.75s           2023-02-23T13:05:59
+================================================================================
+[2023-02-23 10:06:30,486] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.63s           2023-02-23T13:06:30
+================================================================================
+[2023-02-23 10:07:01,729] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.54s           2023-02-23T13:07:01
+================================================================================
+[2023-02-23 10:07:33,038] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.53s           2023-02-23T13:07:33
+================================================================================
+[2023-02-23 10:08:04,320] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.53s           2023-02-23T13:08:04
+================================================================================
+[2023-02-23 10:08:35,562] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.63s           2023-02-23T13:08:35
+================================================================================
+[2023-02-23 10:09:06,356] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.54s           2023-02-23T13:09:06
+================================================================================
+[2023-02-23 10:09:37,146] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.55s           2023-02-23T13:09:37
+================================================================================
+[2023-02-23 10:10:07,972] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.56s           2023-02-23T13:10:07
+================================================================================
+[2023-02-23 10:10:38,767] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.54s           2023-02-23T13:10:38
+================================================================================
+[2023-02-23 10:11:25,297] {manager.py:690} INFO - Searching for files in /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags
+[2023-02-23 10:11:25,299] {manager.py:693} INFO - There are 1 files in /Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags
+[2023-02-23 10:11:25,825] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.52s           2023-02-23T13:11:25
+================================================================================
+[2023-02-23 10:11:57,187] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.54s           2023-02-23T13:11:57
+================================================================================
+[2023-02-23 10:12:28,458] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.54s           2023-02-23T13:12:28
+================================================================================
+[2023-02-23 10:12:59,724] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/giovannisabarreto/Desktop/repositorios/aula 2/curso2/airflow_pipeline/dags/twitter_dag.py                           1           0  0.56s           2023-02-23T13:12:59
+================================================================================
+[2023-02-23 10:13:03,400] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
